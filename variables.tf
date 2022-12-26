@@ -4,12 +4,12 @@ variable "aws_region" {
 }
 variable "vpc_id" {
   type   = string
-  default = "vpc-04e7963fb00fe63f6"
+  default = "vpc-0f6ebb365a1b34440"
 }
 
 variable "key_name" {
   type   = string
-  default = "olawale"
+  default = "project-key"
 }
 variable "ports" {
   type    = list(number)
